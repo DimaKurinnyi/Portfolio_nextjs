@@ -75,7 +75,7 @@ body {
   .work:before {
     content: '';
     backdrop-filter: blur(30px);
-    -web-kit-backdrop-filter:blur(30px);
+    -webkit-backdrop-filter:blur(30px);
     WebkitBackdropFilter
     background-color: rgba(0,0,0,0.1);
     position: absolute;
