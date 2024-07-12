@@ -46,7 +46,7 @@ export const ProjectHome = () => {
           </Link>
         </AnimationMove>
       </div>
-      <div className="grid  grid-cols-[repeat(auto-fill,minmax(400px,1fr))] gap-x-6 gap-y-6">
+      <div className="grid  grid-cols-[repeat(auto-fill,minmax(360px,1fr))] gap-x-6 gap-y-6">
         {result.slice(0, 3).map((project, i) => (
           <AnimationMove key={project.id} customDelay={i} customY={75}>
           <div
